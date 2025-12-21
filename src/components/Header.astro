@@ -1,0 +1,28 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+import ThemeToggle from './ThemeToggle.astro';
+---
+
+<header class="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-800 transition-colors duration-300">
+	<nav class="max-w-4xl mx-auto px-4 flex items-center justify-between h-16">
+		<h2 class="text-xl font-bold"><a href="/" class="text-gray-900 dark:text-white no-underline">{SITE_TITLE}</a></h2>
+		<div class="flex items-center gap-4">
+			<div class="hidden md:flex items-center gap-4">
+				<HeaderLink href="/" class="text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-accent">Home</HeaderLink>
+				<HeaderLink href="/blog" class="text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-accent">Blog</HeaderLink>
+				<HeaderLink href="/about" class="text-gray-600 dark:text-gray-300 hover:text-accent dark:hover:text-accent">About</HeaderLink>
+			</div>
+			<ThemeToggle />
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+	}
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+	}
+</style>
