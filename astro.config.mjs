@@ -8,7 +8,7 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://adsantos.github.io',
+  site: 'https://asantos2000.github.io',
   base: '/',
   integrations: [mdx(), sitemap()],
 
@@ -24,5 +24,3 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 });
-
-https://github.com/asantos2000/asantos2000.github.io.git
