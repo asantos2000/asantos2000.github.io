@@ -55,51 +55,43 @@ const posts = (await getCollection('blog')).sort(
 			}
 			.title {
 				margin: 0;
-				color: rgb(var(--black));
 				line-height: 1;
 			}
 			.date {
 				margin: 0;
 				color: rgb(var(--gray));
 			}
-			ul li a:hover h4,
+			ul li a:hover .title,
 			ul li a:hover .date {
-				color: rgb(var(--accent));
+				color: var(--accent);
 			}
 			ul a:hover img {
 				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
-				}
-				ul li {
-					width: 100%;
-					text-align: center;
-				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
-				}
 			}
 		</style>
 	</head>
 	<body>
 		<Header />
-		<main>
+		<main class="max-w-4xl mx-auto px-4 py-12">
 			<section>
-				<ul>
+				<ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none p-0">
 					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.id}/`}>
+						posts.map((post, index) => (
+							<li class={index === 0 ? "md:col-span-2 mb-8" : ""}>
+								<a href={`/blog/${post.id}/`} class="group block no-underline">
 									{post.data.heroImage && (
-										<Image width={720} height={360} src={post.data.heroImage} alt="" />
+										<Image 
+											width={index === 0 ? 1020 : 720} 
+											height={index === 0 ? 510 : 360} 
+											src={post.data.heroImage} 
+											alt="" 
+											class="rounded-xl shadow-md group-hover:shadow-xl transition-shadow duration-300 mb-4 w-full object-cover"
+										/>
 									)}
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
+									<h4 class={`title font-bold text-gray-900 dark:text-white group-hover:text-accent transition-colors ${index === 0 ? "text-3xl" : "text-xl"}`}>
+										{post.data.title}
+									</h4>
+									<p class="date text-gray-500 dark:text-gray-400 mt-2">
 										<FormattedDate date={post.data.pubDate} />
 									</p>
 								</a>

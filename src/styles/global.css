@@ -37,20 +37,24 @@ font-display: swap;
 }
 
 body {
-font-family: "Atkinson", sans-serif;
-margin: 0;
-padding: 0;
-text-align: left;
-background: linear-gradient(var(--gray-gradient)) no-repeat;
-background-size: 100% 600px;
-word-wrap: break-word;
-overflow-wrap: break-word;
-color: rgb(var(--gray-dark));
-font-size: 20px;
-line-height: 1.7;
+	font-family: "Atkinson", sans-serif;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	font-size: 20px;
+	line-height: 1.7;
+	transition: background-color 0.3s, color 0.3s;
 }
 
 @layer base {
+  body {
+    background: linear-gradient(var(--gray-gradient)) no-repeat;
+    background-size: 100% 600px;
+    color: rgb(var(--gray-dark));
+  }
+
   .dark body {
     background: #13151a;
     color: #d1d5db;
