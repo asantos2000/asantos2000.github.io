@@ -3,7 +3,7 @@
 title: "Agent Skills as a Strategic Capability in Process-Driven Organizations"
 description: "The integration of modular Agent Skills, introduced by Anthropic on October 16, 2025, and released as an open standard on December 18, 2025, represents a structural shift in how organizations operationalize generative artificial intelligence inside business processes. **Skills convert ephemeral prompts into persistent, versioned, discoverable procedural artifacts**, and in doing so, they reopen a set of long-standing questions in Business Process Management (BPM) and digital transformation research about what it takes for a technology to function as a scalable organizational capability rather than a set of isolated automations."
 pubDate: "April 19 2026"
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/post-5.png"
 
 ---
 
