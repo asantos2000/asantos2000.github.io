@@ -7,8 +7,6 @@ heroImage: "../../assets/post-6.png"
 
 ---
 
-# Agent Skills as a capability layer for business process redesign
-
 ## Central argument
 
 Modular AI agent Skills can be understood as a new procedural layer that sits between enterprise process architecture and agent execution. Anthropic[\[1\]](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) introduced Skills on October 16, 2025, as folders containing a SKILL.md file plus optional scripts and resources, and later published Agent Skills as an open standard for cross-platform portability on December 18, 2025\. The core design principle is progressive disclosure: agents first read lightweight metadata, such as a name and description, and only load the rest of the skill when the task requires it. Since then, compatible forms of Skills have appeared across OpenAI[\[2\]](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills) products and GitHub[\[3\]](https://www.vdaalst.rwth-aachen.de/publications/p1398.pdf) Copilot, which means Skills are no longer merely a vendor-specific customization trick. They are becoming a portable format for packaging procedural knowledge, organizational conventions, and reusable workflows (Anthropic, 2025b, 2026a; OpenAI, 2026a, 2026b; GitHub, 2026). [\[4\]](https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills)
