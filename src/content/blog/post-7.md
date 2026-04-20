@@ -3,7 +3,7 @@
 title: "The Convergence of Modular AI Agent Skills and Business Process Engineering: A Framework for Strategic Autonomy, Governance, and Performance"
 description: "The advent of the Agent Skills open standard, released in late 2025, provides the missing link: a mechanism to package domain expertise, complex workflows, and deterministic scripts into a format that AI agents can discover and execute in real-time."
 pubDate: "April 19 2026"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/post-7.png"
 
 ---
 
