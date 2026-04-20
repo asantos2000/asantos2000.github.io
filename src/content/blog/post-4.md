@@ -7,8 +7,6 @@ heroImage: "../../assets/post-4.png"
 
 ---
 
-# Process analysis for digital transformation
-
 ## Executive summary
 
 Process analysis is best understood as a disciplined examination of how work actually flows across activities, roles, systems, data, controls, and outcomes. In traditional quality and operations settings, it has been used to reduce variation, waste, delay, and defects. In digital transformation settings, however, its role is broader. It becomes the mechanism by which organizations decide what to standardize, redesign, automate, instrument, and continuously govern. Recent literature positions business process management as a material enabler of digital innovation and transformation rather than merely a documentation exercise (IBM, n.d.; Putra & Mahendrawathi, 2024). [\[1\]](https://www.ibm.com/think/topics/business-process-analysis)
