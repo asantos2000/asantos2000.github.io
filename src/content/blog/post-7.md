@@ -27,7 +27,7 @@ The efficacy of various methodologies is determined by their primary analytical 
 | Six Sigma | Variation and Defects | Statistical rigor and control [3]. | High-volume quality control [3]. | High |
 | Process Mining | Actual Execution Paths | Objective evidence from logs [3]. | ERP and CRM optimization [3]. | High |
 | Task Mining | Desktop-level Interactions | Reveals "hidden" manual work [3]. | Sizing legacy automation [3]. | High |
-| Object-Centric Process Mining | Interacting Business Objects | Complex dependency analysis.3 | Supply chain and fulfillment [3]. | Very High |
+| Object-Centric Process Mining | Interacting Business Objects | Complex dependency analysis [3]. | Supply chain and fulfillment [3]. | Very High |
 
 The broader implication of this methodological shift is that no single approach is sufficient [3]. Instead, organizations must adopt a layered strategy: using SIPOC for scoping, Lean for hypothesis framing, and process mining for validation before deploying agentic automations [3].
 
