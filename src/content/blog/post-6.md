@@ -3,7 +3,7 @@
 title: "Agent Skills as a capability layer for business process redesign"
 description: "How can the integration of modular AI agent Skills into business process analysis and redesign frameworks transform organizational performance, governance, and automation outcomes, and what theoretical, technical, and managerial conditions determine whether Skills function as scalable strategic capabilities rather than fragmented task automations?"
 pubDate: "April 19 2026"
-heroImage: "../../assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/post-6.png"
 
 ---
 
